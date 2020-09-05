@@ -1,0 +1,98 @@
+body{
+    background-color:white;
+}
+body::-webkit-scrollbar{
+    width: 20px;
+    background-color: black;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 20px;
+}
+nav{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.back{
+    animation: fadein 1s ease-in;
+}
+@keyframes fadein{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+nav span{
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+nav li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.signin{
+    font-size: 50px;
+    padding: 20px; 
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 68, 255);
+}
+.signin a{
+    width: 180px;
+    height: 70px;
+    font-size: 30px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.heading{
+    font-size: 60px;
+    padding: 60px;
+    background-color: black;
+    color: white;
+}
+.discription{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: white;
+}
+.more_info{
+    width: 500px;
+    height: 80px;
+    font-size: 30px;
+}
+.back{
+    background-image: url("../Images/I2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info{
+    font-size: large;
+}
+.bottom_nav{
+    list-style-type: none;
+}
+.bottom_nav a{
+    text-decoration: none;
+}
+.bottom_contact{
+    list-style-type: none;
+    font-size: medium;
+}
+.bottom_contact span{
+    font-size: medium;
+    font-weight: bold;
+}
+label.error {
+    color: rgb(255, 0, 0);
+    font-size: 1rem;
+    display: block;
+    margin-top: 5px;
+}
+.zoom{
+    transition: transform .2s;
+}
+.zoom:hover{
+    transform: scale(1.05);
+}
